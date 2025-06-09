@@ -13,11 +13,6 @@ These wrapper notes are especially useful when using the [Binary File Manager](h
 - Works well with the **Binary File Manager plugin** to add metadata (e.g., tags like `#wrapper`) to non-Markdown files via wrappers
 - Easily executable **from within Obsidian** using the Shell Commands plugin or Templater
 
-## 🛠 Usage
-
-```bash
-python3 Obsidian_Link_curator.py --vault "/path/to/vault" --wrapper "_Wrapper Notes"
-
 ## 🧩 Plugin Integration
 
 This script complements the functionality of:
@@ -38,4 +33,8 @@ This plugin makes it very easy to trigger scripts directly from Obsidian.
 
 GitHub: [Taitava/obsidian-shellcommands](https://github.com/Taitava/obsidian-shellcommands)
 
+## 🛠 Usage
+
+```bash
+python3 Obsidian_Link_curator.py --vault "/path/to/vault" --wrapper "_Wrapper Notes"
 

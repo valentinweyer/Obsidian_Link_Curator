@@ -11,7 +11,12 @@ These wrapper notes are especially useful when using the [Binary File Manager](h
 - Automatically adds a link to the corresponding wrapper note (e.g. `_Wrapper Notes/Filename_PDF.md`)
 - Avoids duplicate links
 - Works well with the **Binary File Manager plugin** to add metadata (e.g., tags like `#wrapper`) to non-Markdown files via wrappers
-- Can be run manually or triggered from Obsidian using the Templater plugin
+- Easily executable **from within Obsidian** using the Shell Commands plugin or Templater
+
+## 🛠 Usage
+
+```bash
+python3 Obsidian_Link_curator.py --vault "/path/to/vault" --wrapper "_Wrapper Notes"
 
 ## 🧩 Plugin Integration
 
@@ -24,7 +29,13 @@ Use this plugin to create Markdown wrapper files for PDFs and other binary files
 
 GitHub: [qawatake/obsidian-binary-file-manager-plugin](https://github.com/qawatake/obsidian-binary-file-manager-plugin)
 
-## 🛠 Usage
+### 🚀 Shell Commands (recommended)
+This plugin makes it very easy to trigger scripts directly from Obsidian.
 
-```bash
-python3 Obsidian_Link_curator.py --vault "/path/to/vault" --wrapper "_Wrapper Notes"
+- Simply create a command for:
+  ```bash
+  python3 /full/path/to/Obsidian_Link_curator.py --vault "/path/to/vault" --wrapper "_Wrapper Notes"
+
+GitHub: [Taitava/obsidian-shellcommands](https://github.com/Taitava/obsidian-shellcommands)
+
+

@@ -1,7 +1,7 @@
 # Obsidian Link Curator
 
 This script scans all Markdown files in your Obsidian vault and automatically adds links to wrapper notes for referenced PDF files.  
-These wrapper notes are especially useful when using the [Binary File Manager](https://github.com/h3rmt/obsidian-binary-file-manager) plugin.
+These wrapper notes are especially useful when using the [Binary File Manager](https://github.com/qawatake/obsidian-binary-file-manager-plugin) plugin.
 
 ## 🔍 Features
 
@@ -22,7 +22,7 @@ Use this plugin to create Markdown wrapper files for PDFs and other binary files
 - Allows tagging and metadata for non-Markdown files
 - Keeps graph view clean using tag filters like `#wrapper`
 
-GitHub: [h3rmt/obsidian-binary-file-manager](https://github.com/h3rmt/obsidian-binary-file-manager)
+GitHub: [qawatake/obsidian-binary-file-manager-plugin](https://github.com/qawatake/obsidian-binary-file-manager-plugin)
 
 ## 🛠 Usage
 
